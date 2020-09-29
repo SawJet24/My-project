@@ -8,6 +8,17 @@
             body{
                 font-family: sans-serif;
                 font-size: 20px;
+                background-color:rgb(14, 202, 99);
+                
+            }
+           a{
+               color:rgb(17, 0, 255);
+           }
+            h2{
+                color: rgb(209, 131, 28);
+            }
+            p{
+                color: white;
             }
             img{
                 width: 500px;
@@ -25,23 +36,35 @@
             <li>
                 <a href ="#What is Internet? How does Internet work?">What is Internet? How does Internet work?</a>
             </li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>
+                <a href="#What is Internet Protocol?">What is Internet Protocol?</a>
+            </li>
+            <li>
+                <a href="#what is IP Addresses">What is IP Addresses?</a>
+            </li>
+            <li>
+                <a href="#Domain Name Server DNS">Domain Name Server (DNS)</a>
+            </li>
+            <li>
+                <a href="#What packets are and how they are used to transfer data? ">What packets are and how they are used to transfer data?</a>
+            </li>
+            <li>
+                <a href="#HTTP: Hypertext_Transfer_Protoscol">HTTP: Hypertext Transfer Protocol</a>
+            </li>
+            <li>
+                <a href="#HTML: Hypertext Markup Language">HTML: Hypertext Markup Language</a>
+            </li>
+            <li>
+                <a href="#Routers">Routers</a>
+            </li>
+            <li>
+                <a href="#Resources">Resources</a>
+            </li>
         </ol>
-        <h2>What is Internet? How does internet works?</h2>
+        <h2>1.What is Internet? How does internet works?</h2>
         <p>The Internet (or internet) is the global system of interconnected computer networks that uses the Internet protocol suite (TCP/IP) to communicate between networks and devices. It is a network of networks that consists of private, public, academic, business, and government networks of local to global scope, linked by a broad array of electronic, wireless, and optical networking technologies. The Internet carries a vast range of information resources and services, such as the inter-linked hypertext documents and applications of the World Wide Web (WWW), electronic mail, telephony, and file sharing.</p>
         <img src= "https://img.webnots.com/2019/02/Overview-of-Internet.png">
         
-        <p></p>
-        <h2>what packets are and how they are used to transfer data?</h2>
-        <p>A data packet is a unit of data made into a single package that travels along a given network path. Data packets are used in Internet Protocol (IP) transmissions for data that navigates the Web, and in other kinds of networks.For example, every Web page that you receive comes as a series of packets, and every e-mail you send leaves as a series of packets. Networks that ship data around in small packets are called packet switched networks.</p>
         <h2>The differences between a web page, web server, web browser and search engine.</h2>
         <h3>Web Page</h3>
         <p>A document which can be displayed in a web browser such as  Google Chrome,  Microsoft Internet Explorer or Edge. These are also often called just "pages.</p>
@@ -52,9 +75,77 @@
         <h3>Search Engine</h3>
         <p>A program that search for andd identifies items in a database that correspond to keywords character specified by the user, used especially for finding particular site on the World wide Web. eg. google. </p>
 
-        <h2>What is Internet Protocol</h2>
+        <h2>2.What is Internet Protocol?</h2>
         <p>we've all sat down and sent out an email massage before but have you ever thought about how the massage gets from one to another.This is the job for internet protocol. Our language is very different from the language that a computer use so the massage that we create need to be translated from an alphabetic text into an electronic signal before they can be send this translation is handle in the computer by the separate modules in the communication protocol because these protocol or rule of conduct usually communicate with two or more modules they are best described as layers in a stack of protocol these layer are the application layer, transport layer, internet layer, link layer, physical layer. </p>
+        <img src="protocol layer..png">
         <p>The massager that we sent our filter through these layer and broken down into a small chunks of data call packets we start with the application layer (eg. E-mail, massager) that you maybe familiar with  to create our massage one example of a protocol form which is Hypertext Transfer Protocol or HTTP.The transport layer uses the Transmissions Control Protocol or TCP to encapsulate the data block from the application layer it then move to the internet layer where the Internet Protocol or IP is used to deliver the packets these packets are delivered through the Link layer which is an Ethernet cable to the  Physical layer which id the basic hardware of your computer network.   </p>
-       
+       <h2>3.What is IP Addresses?</h2>
+       <p>Computer in internet communicate with each other underground or underwater or wireless.If I want to download a file from internet then my computer should have an address so that other computer in internet can find and locate my computer in internet terms that address is called IP address. When you want to watch a YouTube you need IP address, want to send an email you need IP Addresses, want to browser gifts off adorable cats you need IP Address. <strong>IP Addresses is a unique string of number separated by full stops that identifies each computer using the internet Protocol to communicate over a network.</strong>   </p>
+       <img src="IP.png">
+      <h2>4.Domain Name Server (DNS)</h2>
+      <p>In the internet computer always identify each other with unique numbers called IP Addresses.The IP addresses doesn't understand human languages If they do not understand human languages how load a website when we types its addresses in the web browser's URL bar that's the place where DNS (Domain Name Server) come in and suppose.For example you speak english amd you want to communicate a person who speaks French for effective communication you will need a translator.Same is the case on the internet too.Computer and web browser understand Ip addresses and we humans understand our languages .So DSN come in and translate between humans and computers languages.When we type google.com in the web browser DNS translates it to the web browsers that is IP Addresses and give into the web browser.So web browser understands that we want to access google.com so it contacts the Google server and loads google.com on the computer .That's how DNS work.</p>
+      <h3>How DNS works internally?</h3>
+      If you want to understand how DNS works internally you should know what our DNS servers.
+      <h4>DNS Server</h4>
+       <p>Server are computer storing HTML files, images, sounds, videos for any other files types.Server that work together to provide IP addresses of the requested website to the web browser are called DNS servers.There are four types of Server: </p>
+       <ol>
+           <li>DNS recursive resolver/DNS resolver</li>
+           <li>Root name server</li>
+           <li>Top Level Domain/TLD name server</li>
+           <li>Authoritative name server</li>
+       </ol>
+       <h4>DNS Resolver</h4>
+       <p>DNS resolver is provided by the internet service provider (ISP) it connects the web browser of our computer to the DnS name servers . </p>
+       <h4>Root name server</h4>
+      <p> Root name server has 13 sets (letter.root-server.net) where letter ranges from A to M and are operated by 12 different organizations each set has a number of server placed around the world and information page exists for all root name servers at address <strong><em>letter.root-server.org </em></strong>where letter ranges from A to M except g. This is the home page address details of all root name server can be found in the website<strong><em>www.root-server.org</em></strong> </p>
+      <h4>TLD name server</h4>
+      <p>TLD name server stores the information of all domains sharing a common domain extension ( .com, .net, .in, .edu).For Example .com :
+          <ol>
+              <li>TLD name servers store the information of all web site ending with .com extension ( google.com) </li>
+             <p> .net</p>
+             <li>TLD name server store the information of all web site ending with .net </li> 
+          </ol>  </p>
+          <h4>Authoritative name server</h4>
+          <p>Authoritative name server is the last server in the domain name system it stores the  IP address of the requested web site.Authoritative name server you can find with CMD commands
+              <ol>
+                  <li>Open>CMD command>ns lookup>Enter</li>
+                  <li>set query=ns>Enter</li>
+                  <li>type the domain name (facebook.com).</li>
+              </ol>
+          </p>
+       <h2>5.What packets are and how they are used to transfer data?</h2>
+        <p>A data packet is a unit of data made into a single package that travels along a given network path. Data packets are used in Internet Protocol (IP) transmissions for data that navigates the Web, and in other kinds of networks.For example, every Web page that you receive comes as a series of packets, and every e-mail you send leaves as a series of packets. Networks that ship data around in small packets are called packet switched networks.</p>
+        <h2>6.HTTP: Hypertext Transfer Protocol</h2>
+        <p>Hypertext Transfer Protocol is the protocol for transferring hypertext.What is HyperText? A Hypertext is a series of text documents which are linked each other via hyperlinks.HTTP is the protocol to transfer hypertext from the web browser so you can load it up view it inside your browser and click the links and navigate to other pages.  </p>
+        <image src="http.png"></image>
+        <h2>HTML: Hypertext Markup Language</h2>
+        <p>HTML is stand for Hypertext Markup language and the basic of all thing web.Hypertext is the process of linking object to each other so that one object clicked the linking object can be viewed and hypertext markup language was created by Tim Berners-Lee in 1990 so internet could be used through the internet.It uses to describe the structure of web page and a special syntax or notation to organize and give information about of the page to the browser.Elements usually have opening and closing tags that surround and give meaning to content.For example there are different tag options to place around text to show whether it is a heading, a paragraph,or a list. </p>
+        <img src="html.png">
+        <h2>Routers</h2>
+        <p>Router is a networking device that forwards data packets between computer networks.Routers perform the traffic directing functions on the internet. Data send through the internet, such as a web page or email, is in the form of data packets. </p>
+        <img src="router.png">
+        <h2>
+            <a name="Resources"><strong>Resources</strong></a>
+            </h2>
+           
+                <ul>
+                 <li><a href="https://vimeo.com/128575085" target="_blank">BBC — How Does The Internet Work?</a></li>
+                 <li><a href="https://youtu.be/7_LPdttKXPc?t=46s" target="_blank">How the Internet Works in 5 Minutes</a></li>
+                 <li><a href="https://developer.mozilla.org/en-US/Learn/Common_questions/How_does_the_Internet_work" target="_blank">How does the Internet work?</a></li>
+                 <li><a href="https://developer.mozilla.org/en-US/Learn/Common_questions/Pages_sites_servers_and_search_engines" target="_blank">What is the difference between webpage, website, web server, and search engine?</a></li>
+                 <li><a href="https://youtu.be/BrXPcaRlBqo" target="_blank">Google short</a></li>
+                 <li><a href="https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/How_the_Web_works#Clients_and_servers" target="_blank">Read about how one part of the web interacts with another</a></li>
+                 <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name#How_does_a_DNS_request_work" target="_blank">How does a DNS request work?</a></li>
+                 <li><a href="https://www.youtube.com/watch?v=72snZctFFtA&feature=youtu.be&t=45s" target="_blank">DNS Explained</a></li>
+                 <li><a href="https://www.youtube.com/watch?v=ewrBalT_eBM&feature" target="_blank">A packet’s journey.</a></li>
+                 <li><a href="https://www.youtube.com/watch?v=JWqoTRWQWQM" target="_blank">Internet Technologies – Harvard CS50</a></li>
+                 <li><a href="https://www.youtube.com/watch?v=04GztBlVo_s" target="_blank">Internet Primer</a></li>
+                 <li><a href="https://www.youtube.com/watch?v=iSFEjQRulf0" target="_blank">Web and the HTTP Protocol</a></li>
+                 <li><a href="https://www.amazon.co.uk/dp/B007TB5SKA/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1" target="_blank">Tubes: Behind the Scenes at the Internet</a></li>
+                 <li><a href="https://www.youtube.com/watch?v=A1g9SokDJSU" target="_blank">Internet Protocol (IP) Addresses</a></li>
+                 <li><a href="https://www.youtube.com/watch?v=GP7uvI_6uas" target="_blank">Internet’s Packets: The Transfer Control Protocol (TCP)</a></li>
+                 <li><a href="https://launchschool.com/books/http" target="_blank">Introduction to HTTP</a></li>
+                </ul>
+               
     </body>
 </html>
